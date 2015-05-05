@@ -12,15 +12,6 @@
 - **TEXT** 该值是一个文本字符串，使用数据库编码（UTF-8，UTF-16BE或UTF-16LE）保存。
 - **BLOB** 不转换，直接存储，二进制数据
 
-##时间和日期
-
-SQLite不能存储日期或时间,但可以通过内置函数存储为TEXT、REAL或INTEGER。
-
-- TEXT: ISO8601字符串("YYYY-MM-DD HH:MM:SS.SSS").
-- REAL: 以Julian日期格式存储.
-- INTEGER: Unix时间戳. 
-
-NUMERIC也有类似的转换，用的较少暂不研究
 CREATE TABLE 中可以声明很多中类型，系统会自动转换成SQLite支持的基本类型。
 Android的一些组件会直接使用"_id"字段名作为ID，如listview的adapter
 

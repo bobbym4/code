@@ -1,7 +1,14 @@
-CREATE TABLE student (
+参考:
+http://developer.android.com/reference/android/database/sqlite/SQLiteDatabase.html
+http://developer.android.com/reference/android/database/sqlite/SQLiteOpenHelper.html
+http://developer.android.com/reference/android/content/ContentValues.html
+http://developer.android.com/reference/android/database/Cursor.html
+
+
+CREATE TABLE student2 (
   _id INTEGER PRIMARY KEY AUTOINCREMENT,
   name TEXT,
-  birth INTEGER
+  birth BIGINT
 );
 
 ALTER TABLE student ADD height REAL;

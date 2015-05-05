@@ -1,5 +1,4 @@
-参考: [SQLiteDatabase](http://developer.android.com/reference/android/database/sqlite/SQLiteDatabase.html)
-[Cursor](http://developer.android.com/reference/android/database/Cursor.html)
+参考: [SQLiteDatabase](http://developer.android.com/reference/android/database/sqlite/SQLiteDatabase.html) | [Cursor](http://developer.android.com/reference/android/database/Cursor.html)
 
 	void execSQL(String sql)
 	void execSQL(String sql, Object[] bindArgs)
