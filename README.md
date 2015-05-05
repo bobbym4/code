@@ -12,6 +12,7 @@
 ##[SQL]
 
 - SQL.md SQL基础
+- SQLite-datatype.md SQLite数据类型
 
 ##[SQL/SQLite]
 
